@@ -109,7 +109,7 @@ function expressionToGlob(node) {
       return sanitizeString(node.value);
     }
     default:
-      return '*';
+      return '**/*';
   }
 }
 
